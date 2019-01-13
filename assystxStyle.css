@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body{
 	font-family:century gothic;
 	background-color:#e2e2e2;
@@ -51,9 +60,6 @@ body{
 	font-size:12px;
 	font-weight:bold;
 }
-#modifyTable td{
-	width: 50%;
-}
 #viewLeft{
 	color:white;
 	width:15%;
@@ -76,6 +82,8 @@ body{
 }
 #thirdCells{
 	background-color:#e1e1e1;
+	height:85%;
+	width:85%;
 }
 #lower{
 	border-top: 1px solid #eeeeee;
@@ -85,4 +93,13 @@ body{
 #upper{
 	height:60%;
 	float:top;
+}
+#contentHolder{
+	position: absolute;
+	height:100%;
+	width:50%;
+}
+#contentHolderModify{
+	width: 35%;
+	height: 100%;
 }

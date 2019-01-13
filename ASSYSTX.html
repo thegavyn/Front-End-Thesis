@@ -7,56 +7,71 @@
 </head>
 <body>
 	<table id = "fullTable">
-	<tr id ="firstRow">
-		<td id ="viewLeft" rowspan = "3"> 
-			<div id = "upper">
-				<p class = "textSelect">View Offerings</p>
-				<select class = "options">
-				</select>
-				<p class = "textSelect">Search Course</p>
-				<input class = "options" placeholder = "Search Course...">
-				<p class = "textSelect">Class Type</p>
-				<select class = "options">
-				</select>
-				<p class = "textSelect">Room Type</p>
-				<select class = "options">
-				</select>
-				<p class = "textSelect">Time Block</p>
-				<select class = "options">
-				</select>
-				<p class = "textSelect">Class Days</p>
-			</div>
-			<div id = "lower">
-			<button class = "lowerButtons">View Faculty Load Information</button>
-			<button class = "lowerButtons">Deloading</button>
-			<button class = "lowerButtons">Concerns</button>
-			</div>
-		</td> 
-		<td id = "titleCell">Unnamed System</td>
-		<td id = "userCell"> </td>
-	</tr>
-	<tr id = "secondaryTitles">
-		<td id = "lastEdited"> </td>
-		<td class ="justBoldTitles">Modify Offering</td>
-	</tr>
-	<tr id = "thirdCells">
-		<td> 
-			<table id = "offerings">
+		<tr id ="firstRow">
+			<td id ="viewLeft" rowspan = "3"> 
+			<!-- Left Column -->
+				<div id = "upper">
+				<!-- Upper Portion of the black left column -->
+					<p class = "textSelect">View Offerings</p>
+					<select class = "options">
+					</select>
+					<p class = "textSelect">Search Course</p>
+					<input class = "options" placeholder = "Search Course...">
+					<p class = "textSelect">Class Type</p>
+					<select class = "options">
+					</select>
+					<p class = "textSelect">Room Type</p>
+					<select class = "options">
+					</select>
+					<p class = "textSelect">Time Block</p>
+					<select class = "options">
+					</select>
+					<p class = "textSelect">Class Days</p>
+				</div>
+				<div id = "lower">
+					<!-- Lower Portion of the black left column -->
+					<button class = "lowerButtons">View Faculty Load Information</button>
+					<button class = "lowerButtons">Deloading</button>
+					<button class = "lowerButtons">Concerns</button>
+				</div>
+			</td> 
+			<td id = "titleCell">Unnamed System</td>
+			<td id = "userCell"> </td>
+			<!-- Upper Green Portion of the Site -->
+		</tr>
+		<tr id = "secondaryTitles">
+			<!-- Grey Portion before the content -->
+			<td id = "lastEdited"> </td>
+			<td class ="justBoldTitles">Modify Offering</td>
+		</tr>
+		<tr id = "thirdCells">
+		<!-- Content Proper -->
+			<td id = "contentHolder"> 
+				<table id = "offerings">
+				<tr>
+					<th>Course</th>
+					<th>Section</th>
+					<th>Day</th>
+					<th>Time</th>
+					<th>Room</th>
+					<th>Faculty</th>
+				</tr>
+				</table>
+			</td>
+			<td id = "contentHolderModify">
+			<table id = "modifyTable">
+			<!-- Content Proper for Modification -->
+				<tr>
+					<td> Class Type </td>
+					<td> Section </td>
+				</tr>
+				<tr>
+					<td> <select class="modSelect"></select> </td>
+					<td> <input> </td>
+				</tr>
 			</table>
-		</td>
-		<td>
-		<table id = "modifyTable">
-		<tr>
-			<td> Class Type </td>
-			<td> Section </td>
+			</td>
 		</tr>
-		<tr>
-			<td> <select class="modSelect"></select> </td>
-			<td> <input> </td>
-		</tr>
-		</table>
-		</td>
-	</tr>
 	</table>
 </body>
 
