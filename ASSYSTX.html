@@ -6,107 +6,68 @@
 	<!-- <script src="myScript.js"/> --> 
 </head>
 <body>
-	<table id = "fullTable">
-		<tr id ="firstRow">
-			<td id ="viewLeft" rowspan = "3"> 
-			<!-- Left Column -->
-				<div id = "upper">
-				<!-- Upper Portion of the black left column -->
-					<p class = "textSelect">View Offerings</p>
-					<select class = "options">
-					</select>
-					<p class = "textSelect">Search Course</p>
-					<input class = "options" placeholder = "Search Course...">
-					<p class = "textSelect">Class Type</p>
-					<select class = "options">
-					</select>
-					<p class = "textSelect">Room Type</p>
-					<select class = "options">
-					</select>
-					<p class = "textSelect">Time Block</p>
-					<select class = "options">
-					</select>
-					<p class = "textSelect">Class Days</p>
-				</div>
-				<div id = "lower">
-					<!-- Lower Portion of the black left column -->
-					<button class = "lowerButtons">View Faculty Load Information</button>
-					<button class = "lowerButtons">Deloading</button>
-					<button class = "lowerButtons">Concerns</button>
-				</div>
-			</td> 
-			<td id = "titleCell">Unnamed System</td>
-			<td id = "userCell"> </td>
-			<!-- Upper Green Portion of the Site -->
-		</tr>
-		<tr id = "secondaryTitles">
-			<!-- Grey Portion before the content -->
-			<td id = "lastEdited"> </td>
-			<td class ="justBoldTitles">Modify Offering</td>
-		</tr>
-		<tr id = "thirdCells">
-		<!-- Content Proper -->
-			<td id = "contentHolder"> 
-				<table id = "offerings">
-				<tr>
-					<th>Course</th>
-					<th>Section</th>
-					<th>Day</th>
-					<th>Time</th>
-					<th>Room</th>
-					<th>Faculty</th>
-				</tr>
-				</table>
-			</td>
-			<td id = "contentHolderModify">
-			<table id = "modifyTable">
-			<!-- Content Proper for Modification -->
-				<tr>
-					<td> Class Type </td>
-					<td> Section </td>
-				</tr>
-				<tr>
-					<td> <select class="modSelect"></select> </td>
-					<td> <input type = "text" name = "section" id = "textSection"> </td>
-				</tr>
-				<tr>
-					<td> Time Block </td>
-					<td> Day 1 </td>
-					<td> Day 2 </td>
-				</tr>
-				<tr>
-					<td id = "timeBlock"> <select class="modSelect" ></select> </td>
-					<td  id = "dayOne"> <select class="modSelect"></select> </td>
-					<td id = "dayTwo"> <select class="modSelect" ></select> </td>
-				</tr>
-				<tr>
-					<td> Room </td>
-				</tr>
-				<tr> 
-					<td> <input type = "text" name = "section" id = "textRoom"> </td>
-					<td> <button class = "">Change Room</button> </td>
-				</tr>
-				<tr>
-					<td>Faculty</td>
-				</tr>
-				<tr> 
-					<td> <input type = "text" name = "section" id = "textFaculty"> </td>
-					<td> <button class = "">Re - Assign</button> </td>
-				</tr>
-				<tr>
-					<td>Concerns</td>
-				</tr>
-				<tr>
-					<td><input type = "text" id = "concernsInput" placeholder = "These concerns will go to your APO and fellow Chairs and Vice Chairs."></td>
-				</tr>
-				<tr>
-					<td><button class = "">Submit</button></td>
-					<td><button class = "">Cancel</button></td>
-				</tr>
-			</table>
-			</td>
-		</tr>
-	</table>
+	<div id = "left_side">
+		<table id = "left_side_content">
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> View Offerings </p>
+					<select class = "left_side_select"> </select>
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> Search Course </p>
+					<input class = "left_side_select" placeholder = "Search Course...">
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> Class Type </p>
+					<select class = "left_side_select"> </select>
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> Room Type </p>
+					<select class = "left_side_select"> </select>
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> Time Block </p>
+					<select class = "left_side_select"> </select>
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td class ="left_side_rows_content">
+					<p class = "left_side_text"> Class Days </p>
+				</td>
+			</tr>
+			<tr class = "left_side_rows">
+				<td>
+					<button class = "class_days"> M </button>
+					<button class = "class_days"> T </button>
+					<button class = "class_days"> W </button>
+					<button class = "class_days"> H </button>
+					<button class = "class_days"> F </button>
+					<button class = "class_days"> S </button>
+				</td>
+			</tr>
+		</table>
+		<div id = "left_button_holder">
+			<button class = left_buttons> View Faculty<br>Load Information </button>
+			<button class = left_buttons> Deloading </button>
+			<button class = left_buttons> Concerns </button>
+		</div>
+	</div>
+	<div id = "header">
+		<p id = "system_title"> Unnamed System </p>
+		<a href ="#" id = "user_icon">User</a>
+	</div>
+	<div id = "smaller_header">
+		<a href ="#" id = "last_edited">Last edited 1 hour ago</a>
+		
+	</div>
 </body>
 
 </html>
