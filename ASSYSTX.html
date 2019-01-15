@@ -11,31 +11,31 @@
 			<tr class = "left_side_rows">
 				<td class ="left_side_rows_content">
 					<p class = "left_side_text"> View Offerings </p>
-					<select class = "left_side_select"> </select>
+					<select class = "left_side_select" id="select_view_offerings"> </select>
 				</td>
 			</tr>
 			<tr class = "left_side_rows">
 				<td class ="left_side_rows_content">
 					<p class = "left_side_text"> Search Course </p>
-					<input class = "left_side_select" placeholder = "Search Course...">
+					<input class = "left_side_select" id="input_search_course"placeholder = "Search Course...">
 				</td>
 			</tr>
 			<tr class = "left_side_rows">
 				<td class ="left_side_rows_content">
 					<p class = "left_side_text"> Class Type </p>
-					<select class = "left_side_select"> </select>
+					<select class = "left_side_select" id="select_left_class_type"> </select>
 				</td>
 			</tr>
 			<tr class = "left_side_rows">
 				<td class ="left_side_rows_content">
 					<p class = "left_side_text"> Room Type </p>
-					<select class = "left_side_select"> </select>
+					<select class = "left_side_select" id="select_room_type"> </select>
 				</td>
 			</tr>
 			<tr class = "left_side_rows">
 				<td class ="left_side_rows_content">
 					<p class = "left_side_text"> Time Block </p>
-					<select class = "left_side_select"> </select>
+					<select class = "left_side_select" id="select_left_timeblock"> </select>
 				</td>
 			</tr>
 			<tr class = "left_side_rows">
@@ -45,19 +45,19 @@
 			</tr>
 			<tr class = "left_side_rows">
 				<td>
-					<button class = "class_days"> M </button>
-					<button class = "class_days"> T </button>
-					<button class = "class_days"> W </button>
-					<button class = "class_days"> H </button>
-					<button class = "class_days"> F </button>
-					<button class = "class_days"> S </button>
+					<button class = "class_days" id="class_m"> M </button>
+					<button class = "class_days" id="class_t"> T </button>
+					<button class = "class_days" id="class_w"> W </button>
+					<button class = "class_days" id="class_h"> H </button>
+					<button class = "class_days" id="class_f"> F </button>
+					<button class = "class_days" id="class_s"> S </button>
 				</td>
 			</tr>
 		</table>
 		<div id = "left_button_holder">
-			<button class = left_buttons> View Faculty<br>Load Information </button>
-			<button class = left_buttons> Deloading </button>
-			<button class = left_buttons> Concerns </button>
+			<button class = left_buttons id ="button_view_faculty"> View Faculty<br>Load Information </button>
+			<button class = left_buttons id="button_deloading"> Deloading </button>
+			<button class = left_buttons id ="button_concerns"> Concerns </button>
 		</div>
 	</div>
 	<div id = "header">
@@ -96,6 +96,52 @@
 							<td>Jordan Deja</td>
 						</tr>
 				</table>
+	</div>
+	<div id = "right_side">
+		<table id = "modify_content">
+			<tr>
+				<th>Class Type</th>
+				<th>Section</th>
+			</tr>
+			<tr>
+				<td><select id = "select_right_class_type"> </select></td>
+				<td><input id = "text_section" placeholder = ""></td>
+			</tr>
+			<tr>
+					<th>Time Block</th>
+					<th>Day 1</th>
+					<th>Day 2</th>
+			</tr>
+			<tr>
+				<td><select id = "select_right_timeblock"> </select></td>
+				<td><select id = "select_day1"> </select></td>
+				<td><select id = "select_day2"> </select></td>
+			</tr>
+			<tr>
+					<th>Room</th>
+				</tr>
+				<tr>
+					<td><input id = "text_room"></input></td>
+					<td><button id="button_assign_room">Change Room</button></td>
+				</tr>
+			<tr>
+				<th>Faculty</th>
+			</tr>
+			<tr>
+				<td><select id = "select_faculty"></select></td>
+				<td><button id="button_assign_faculty">Re-Assign</button></td>
+			</tr>
+			<tr>
+				<th>Concerns</th>
+			</tr>
+			<tr>
+				<td><textarea  id="area_concerns"></textarea></td>
+			</tr>
+			<tr>
+					<td><button id="button_submit_concerns">Submit</button></td>
+					<td><button id="button_cancel_concerns">Cancel</button></td>
+			</tr>
+		</table>
 	</div>
 </body>
 
