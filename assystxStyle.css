@@ -123,9 +123,9 @@ body{
 	color:#979797;
 }
 #modify_offering{
-	position:relative;
+	position: absolute;;
 	left:87%;
-	top:-24;
+	top:-5;
 	font-weight:bold;
 	color:black;
 	font-size:13px;
@@ -165,14 +165,49 @@ body{
 	z-index: 0;
 	border-left:1px solid black;
 }
-#modify_content{
+#right_side th{
+	text-align: justify;
+}
+#modify_class_section, #modify_class_time{
 	position: relative;
-	top: 20%;
-	left: 15;
+	top: 18%;
+	left: 40;
 	font-size:12px;
 	padding: 5px;
+	border-spacing: 10px;
+	
 }
-#modify_content button{
+#modify_room{
+	position: relative;
+	top: 15%;
+	left: 40;
+	font-size:12px;
+	padding: 5px;
+	border-spacing: 10px;
+}
+#modify_faculty, #modify_concerns{
+	position: relative;
+	top: 13%;
+	left: 35;
+	font-size:12px;
+	padding: 5px;
+	border-spacing: 10px;
+}
+#modify_button_concerns{
+	position: relative;
+	top: 10%;
+	left: 50;
+	font-size:12px;
+	padding: 5px;
+	border-spacing: 10px;
+}
+#right_side select, #right_side input{
+	height:25px;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#right_side button{
 	box-shadow: none;
 	border:0;
 	font-weight:bold;
@@ -181,6 +216,44 @@ body{
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
+#select_right_class_type, #select_right_timeblock{
+	width:80px;
+}
+#text_section{
+	width:50px;
+}
+#text_room{
+	width:70px;
+}
+#button_assign_room{
+	width:80px;
+	background-color:#959595;
+}
+#select_faculty{
+	width: 100px;
+}
+#button_assign_faculty{
+	width:80px;
+	height:30px;
+	display: inline-block;
+	background-color:#2e3192;
+}
+#area_concerns{
+	width:150px;
+	height:100px;
+	resize: none;
+}
+#button_submit_concerns{
+	background-color:#3cb878;
+	height:25px;
+	width:60px;
+}
+#button_cancel_concerns{
+	background-color:#ed1c24;
+	height:25px;
+	width:60px;
+}
+/*
 #modify_content td{
 	text-align: justify;
 	padding: 1em;
@@ -232,6 +305,7 @@ body{
 	height:25px;
 	width:60px;
 }
+*/
 /* 
 #fullTable{
 	width:100%;
