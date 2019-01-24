@@ -107,10 +107,10 @@ body{
 	font-weight:bold;
 	text-decoration:none;
 }
-#online_icons{
+#total_load{
 	position: relative;;
-	left:60%;
-	top:8;
+	left:70%;
+	top:-30;
 	color:black;
 	text-decoration:none;
 
@@ -118,14 +118,13 @@ body{
 #last_edited{
 	position:relative;
 	left:275;
-	top:8;
-	font-size:12px;
-	color:#979797;
+	top:0;
+	font-size:14px;
 }
 #modify_offering{
 	position: absolute;;
 	left:87%;
-	top:-5;
+	top:-10;
 	font-weight:bold;
 	color:black;
 	font-size:13px;
@@ -164,4 +163,41 @@ body{
 	right:0;
 	z-index: 0;
 	border-left:1px solid black;
+}
+#area_concerns{
+	width:150px;
+	height:100px;
+	resize: none;
+}
+#table_area{
+	position: relative;
+	top:20%;
+	left:55;
+}
+#button_submit_concerns{
+	background-color:#3cb878;
+	height:25px;
+	width:60px;
+}
+#button_cancel_concerns{
+	background-color:#979797;
+	height:25px;
+	width:60px;
+}
+#concerns_right{
+	position: relative;
+	top:20%;
+	left:45;
+	font-size:12px;
+	padding: 5px;
+	border-spacing: 10px;
+}
+#right_side button{
+	box-shadow: none;
+	border:0;
+	font-weight:bold;
+	color:white;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }

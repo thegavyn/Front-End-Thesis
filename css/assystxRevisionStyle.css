@@ -136,7 +136,7 @@ body{
 }
 #rev_history{
 	position: absolute;;
-	left:87%;
+	left:86%;
 	top:-5;
 	font-weight:bold;
 	color:black;
@@ -266,179 +266,36 @@ body{
 	height:25px;
 	width:60px;
 }
-/*
-#modify_content td{
-	text-align: justify;
-	padding: 1em;
-}
-
-#modify_content select, #modify_content input{
-	height:25px;
-	-webkit-border-radius:3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-#select_right_class_type, #select_right_timeblock{
-	width:80px;
-}
-#text_section{
-	width:50px;
-}
-#select_day1, #select_day2{
-	width:30px;
-}
-#select_faculty{
-	width: 80px;
-}
-#button_assign_faculty{
-	width:80px;
-	height:30px;
-	display: inline-block;
-	background-color:#2e3192;
-}
-#text_room{
-	width:70px;
-}
-#button_assign_room{
-	width:80px;
-	background-color:#959595;
-}
-#area_concerns{
-	width:150px;
-	height:100px;
-	resize: none;
-}
-#button_submit_concerns{
-	background-color:#3cb878;
-	height:25px;
-	width:60px;
-}
-#button_cancel_concerns{
-	background-color:#ed1c24;
-	height:25px;
-	width:60px;
-}
-*/
-/* 
-#fullTable{
+.date_specified{
+	position: relative;
+	top:13%;
+	left:0;
 	width:100%;
-	height:100%;	 
-	cellpadding:0;
-	cellspacing:0;
-}
-
-#fullTable td:nth-child(2){
-	width:65%;
-}
-#fullTable td:nth-child(3){
-	width:20%;
-}
-#titleCell{
-	height: 10%;
-}
-.options{
-	width:150px;
-	height: 23px;
-	-webkit-border-radius:7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	margin-left:20px;
-}
-.justBoldTitles{
-	font-weight:bold;
-	text-align:center;
-}
-.textSelect{
-	margin-top:10px;
-	font-size:12px;
-	padding-top:10px;
-	margin-left:20px;
-}
-.lowerButtons{
-	font-family:century gothic;
-	font-weight:bold;
-	text-align:left;
-	color:#252525;
-	background-color:#e1e1e1;
-	margin-top:10px;
-	width:180px;
-	padding-left:20px;
-	
-}
-#modifyTable{
-	margin-top: -150px;
-	font-size:12px;
-	font-weight:bold;
-}
-#viewLeft{
-	color:white;
-	width:15%;
-	background-color:#252525;
-}
-#secondaryTitles{
-	height: 5%;
-	background-color:#e1e1e1;
-	text-align:justify;
-}
-#titleCell, #userCell{
-	height: 10%;
-	text-align:center;
-	background-color:#3cb878;
-	color:white;
-}
-#titleCell{
-	font-size: 30px;
+	text-align: center;
 	font-weight: bold;
 }
-#thirdCells{
-	background-color:#e1e1e1;
-	height:85%;
-	width:85%;
+.revision_holder{
+	background-color:white;
+	top:11%;
+	position: relative;
+	width:100%;
+	height:7%;
 }
-#lower{
-	border-top: 1px solid #eeeeee;
-	float:bottom;
-	height:40%;
-}
-#upper{
-	height:60%;
-	float:top;
-}
-#contentHolder{
-	position: absolute;
+.revision_entry{
+	width:80%;
 	height:100%;
-	width:50%;
+	float:right;
+	padding-left:10px;
 }
-#contentHolderModify{
-	width: 35%;
-	height: 100%;
+.revision_entry td{
+	font-size:10px;
+	font-weight: bold;
 }
-#offerings{
-	margin-top: -60px;
+.revision_picture{
+	height:30px;
+	width:30px;
+	margin-top:7px;
+	margin-left:20px;
+	float:left;
+	
 }
-#offerings, th{
-	padding: 35px;
-}
-#offerings, td{
-	width:50%;
-	text-align:justify;
-}
-#textSection{
-	width:50%;
-	height: 20px;
-}
-select{
-	width: 75%;
-	height: 20px;
-}
-#timeBlock{
-	width:60%;
-}
-#dayOne, #dayTwo{
-	width: 20%;
-}
-#concernsInput{
-	width: 100%;
-	height: 100px;
-}
-*/

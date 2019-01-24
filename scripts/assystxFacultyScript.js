@@ -1,15 +1,9 @@
 $(function (){
-    jQuery('<div/>', {
-        id: 'div_dialog',
-    }).appendTo('body');
-
+    $("#table_area").hide();
+    $("#concerns_right").hide();
 
     $("#button_concerns").click(function (){
-        $("#div_dialog").dialog({
-            title:"Concerns",
-            width:450,
-            height:450,
-            modal:true
-        })
+         $("#table_area").toggle();
+        $("#concerns_right").toggle();
     })
 })
