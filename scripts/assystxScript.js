@@ -1,4 +1,5 @@
 $(function (){
+    var hasClickedTableRow = false;
     jQuery('<div/>', {
         id: 'div_dialog',
     }).appendTo('body');
@@ -32,6 +33,14 @@ $(function (){
     })
 
     $("#generated_list tr").click(function (){
+        hasClickedTableRow = !hasClickedTableRow;
+        if(hasClickedTableRow == true)
+        {
+            $(this).css({'background-color': '#3cb878'})
+        }
+        else{
+            $(this).css({'background-color': 'white'})
+        }
         $("#modify_class_section").toggle();
         $("#modify_class_time").toggle();
         $("#modify_room").toggle();

@@ -17,6 +17,17 @@ body{
 	position:absolute;
 	z-index: 3;
 }
+#input_search_course{
+	background-color: white;
+}
+#submit_left_side_search{
+	position: absolute;
+	box-shadow: none;
+	border:0;
+	background-color:white;
+	top:24%;
+	right:5;
+}
 #left_side_content{
 	position:relative;
 	top: 40;
@@ -171,9 +182,9 @@ body{
 #right_side{
 	background-color: #e1e1e1;
 	width:20%;
-	height:100%;
+	height:85%;
 	position: absolute;
-	top:0;
+	top: 15%;
 	right:0;
 	z-index: 0;
 	border-left:1px solid black;
@@ -267,23 +278,20 @@ body{
 	width:60px;
 }
 .date_specified{
-	position: relative;
-	top:13%;
-	left:0;
 	width:100%;
 	text-align: center;
 	font-weight: bold;
+	background-color:white;
 }
 .revision_holder{
-	background-color:white;
-	top:11%;
-	position: relative;
 	width:100%;
-	height:7%;
+	height:10%;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
 }
 .revision_entry{
 	width:80%;
-	height:100%;
+	height:20%;
 	float:right;
 	padding-left:10px;
 }

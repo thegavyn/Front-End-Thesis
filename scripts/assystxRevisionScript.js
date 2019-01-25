@@ -1,16 +1,9 @@
 $(function (){
+    var hasClickedRevision = false;
     jQuery('<div/>', {
         id: 'div_dialog',
     }).appendTo('body');
 
-    //hide the right side
-    $("#modify_class_section").hide();
-    $("#modify_class_time").hide();
-    $("#modify_room").hide();
-    $("#modify_faculty").hide();
-    $("#modify_concerns").hide();
-    $("#modify_button_concerns").hide();
-    $("#modify_offering").hide();
 
     $("#button_concerns").click(function (){
 
@@ -31,14 +24,15 @@ $(function (){
         })
     })
 
-    $("#generated_list tr").click(function (){
-        $("#modify_class_section").toggle();
-        $("#modify_class_time").toggle();
-        $("#modify_room").toggle();
-        $("#modify_faculty").toggle();
-        $("#modify_concerns").toggle();
-        $("#modify_button_concerns").toggle();
-        $("#modify_offering").toggle();
+    $(".revision_holder").click(function (){
+        hasClickedRevision = !hasClickedRevision;
+        if(hasClickedRevision == true)
+        {
+            $(this).css({'background-color': '#3cb878'})
+        }
+        else{
+            $(this).css({'background-color': '#e1e1e1'})
+        }
 
     })
 })

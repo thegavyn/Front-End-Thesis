@@ -10,6 +10,17 @@ body{
 	font-family: Arial;
 	background-color:#e2e2e2;
 }
+#input_search_course{
+	background-color: white;
+}
+#submit_left_side_search{
+	position: absolute;
+	box-shadow: none;
+	border:0;
+	background-color:white;
+	top:24%;
+	right:5;
+}
 #left_side{
 	background-color: #252525;
 	width:20%;
@@ -82,14 +93,14 @@ body{
 	left: 0;
 }
 #smaller_header{
-	width: 100%;
+	width: 80%;
 	height:5%;
 	background-color: #e2e2e2;
 	border-bottom: 1px solid black;
 	z-index: 1;
 	position: relative;
 	top:0;
-	left: 0;
+	left: 20%;
 }
 #system_title{
 	text-align:center;
@@ -108,23 +119,23 @@ body{
 	text-decoration:none;
 }
 #total_load{
-	position: relative;;
-	left:70%;
-	top:-30;
+	position: absolute;
+	left:60%;
 	color:black;
 	text-decoration:none;
+	top:-10;
 
 }
 #last_edited{
-	position:relative;
-	left:275;
-	top:0;
+	position:absolute;
+	left:10;
+	top:-5;
 	font-size:14px;
 }
 #modify_offering{
-	position: absolute;;
-	left:87%;
-	top:-10;
+	position: absolute;
+	left:83%;
+	top:-5;
 	font-weight:bold;
 	color:black;
 	font-size:13px;
