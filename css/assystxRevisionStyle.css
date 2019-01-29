@@ -188,6 +188,7 @@ body{
 	right:0;
 	z-index: 0;
 	border-left:1px solid black;
+	overflow-y: auto;
 }
 #right_side th{
 	text-align: justify;
@@ -305,5 +306,17 @@ body{
 	margin-top:7px;
 	margin-left:20px;
 	float:left;
+	position: fixed;
 	
+}
+
+.revision_person, .revision_position, .revision_time{
+	position: relative;
+}
+.revision_position{
+	top:2;
+}
+
+.revision_time{
+	top:2;
 }
