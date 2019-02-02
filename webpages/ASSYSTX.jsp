@@ -1,13 +1,16 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 <head>
 	<title>Unnamed System</title>
-	<link rel="stylesheet" type="text/css" href="../css/assystxAPOStyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/assystxStyle.css">
 	<link rel="stylesheet" type="text/css" href="../css/jquery/jquery-ui.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<script src="../scripts/jquery/jquery-3.3.1.min.js"></script>
 	<script src="../scripts/jquery/jquery-ui.js"></script>
-	<script src="../scripts/assystxAPOScript.js"></script>
+	<script src="../scripts/assystxScript.js"></script>
 </head>
 <body>
 	<div id = "left_side">
@@ -62,10 +65,9 @@
 			</tr>
 		</table>
 		<div id = "left_button_holder">
-			<button class = left_buttons id ="button_upload_flowchart"> Upload Flowchart </button>
-			<button class = left_buttons id="button_add_offering"> Add New Offering </button>
-            <button class = left_buttons id ="button_export_schedule"> Export Schedule </button>
-            <button class = left_buttons id ="button_concerns"> Concerns </button>
+			<button class = left_buttons id ="button_view_faculty"> View Faculty<br>Load Information </button>
+			<button class = left_buttons id="button_deloading"> Deloading </button>
+			<button class = left_buttons id ="button_concerns"> Concerns </button>
 		</div>
 	</div>
 	<div id = "header">
@@ -75,7 +77,7 @@
 	<div id = "smaller_header">
 		<a href ="ASSYSTXRevision.html" id = "last_edited">Last edited 1 hour ago</a>
 		<a href ="#" id = "online_icons">Online Users</a>
-		<p id = "modify_offering"> Modify Offering</p>
+		 <p id = "modify_offering"> Modify Offering</p>
 	</div>
 	<div id = "main_content">
 			<table id = "generated_list">
@@ -171,6 +173,7 @@
 			</tr>
 		</table>
 	</div>
+
 </body>
 
 </html>

@@ -147,7 +147,8 @@ body{
 }
 #generated_list{
 	width:80%;
-    border-collapse: collapse;
+	border-collapse: collapse;
+	overflow: auto;
 }
 #generated_list th{
 	padding: 25px;
@@ -159,6 +160,7 @@ body{
 #generated_list tr{
 	background-color:white;
 	height: 30px;
+	overflow: auto;
 }
 #generated_list td{
 	text-align:center;

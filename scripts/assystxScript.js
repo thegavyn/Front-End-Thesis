@@ -6,7 +6,8 @@ $(function (){
 
     //hide the right side
     $("#modify_class_section").hide();
-    $("#modify_class_time").hide();
+    $("#modify_time").hide();
+    $("#modify_days").hide();
     $("#modify_room").hide();
     $("#modify_faculty").hide();
     $("#modify_concerns").hide();
@@ -42,7 +43,8 @@ $(function (){
             $(this).css({'background-color': 'white'})
         }
         $("#modify_class_section").toggle();
-        $("#modify_class_time").toggle();
+        $("#modify_time").toggle();
+        $("#modify_days").toggle();
         $("#modify_room").toggle();
         $("#modify_faculty").toggle();
         $("#modify_concerns").toggle();
