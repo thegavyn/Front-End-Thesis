@@ -46,7 +46,7 @@
             <td><div id ="div_load"></div></td>
         </tr>
         <tr>
-            <td><button id="button_assign_faculty">Load Faculty</button></td>
+            <td><button id="load_button_assign_faculty">Load Faculty</button></td>
         </tr>
     </table>
 

@@ -10,14 +10,14 @@
 <html>
 <head>
     <title>Unnamed System</title>
-    <link rel="stylesheet" type="text/css" href="css/assystxLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/assystxStyle.css">
     <!-- <script src="myScript.js"/> -->
 </head>
 <body>
 <div id = "header">
     <p id = "system_title"> Unnamed System </p>
 </div>
-<div id = "main_content">
+<div id = "login_main_content">
     <table id = "table_login">
         <tr>
             <td><p class = "p_table_label"> ID Number</p></td>
@@ -32,11 +32,11 @@
             <td><input  type = "password" id = "text_section" placeholder = "" id="text_password"></td>
         </tr>
         <tr>
-            <td><button id="button_submit">Submit</button></td>
+            <td><button id="login_button_submit">Submit</button></td>
         </tr>
     </table>
 </div>
-<div id = "smaller_header">
+<div id = "login_smaller_header">
 </div>
 </body>
 

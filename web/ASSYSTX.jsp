@@ -31,6 +31,14 @@
             <th>Faculty</th>
         </tr>
         <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
             <td>INOVATE</td>
             <td>S17</td>
             <td>TH</td>
@@ -38,6 +46,210 @@
             <td>G206</td>
             <td>Jordan Deja</td>
         </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
+        <tr>
+            <td>INOVATE</td>
+            <td>S17</td>
+            <td>TH</td>
+            <td>0730 - 900</td>
+            <td>G206</td>
+            <td>Jordan Deja</td>
+        </tr>        <tr>
+        <td>INOVATE</td>
+        <td>S17</td>
+        <td>TH</td>
+        <td>0730 - 900</td>
+        <td>G206</td>
+        <td>Jordan Deja</td>
+    </tr>
         <tr>
             <td>INOVATE</td>
             <td>S17</td>

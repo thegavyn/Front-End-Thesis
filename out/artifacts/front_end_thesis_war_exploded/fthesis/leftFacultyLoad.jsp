@@ -16,7 +16,7 @@
                 <form id ="form_search_faculty">
                     <p class = "left_side_text"> Search Faculty </p>
                     <input class = "left_side_select" id="input_search_faculty" placeholder = "Search Faculty...">
-                    <button id = "submit_faculty_search"><i class="fas fa-search"></i></button>
+                    <button id = "load_submit_faculty_search"><i class="fas fa-search"></i></button>
                 </form>
             </td>
         </tr>
@@ -25,7 +25,7 @@
                 <form id ="form_search_expertise">
                     <p class = "left_side_text"> Search By Expertise </p>
                     <input class = "left_side_select" id="input_search_expertise" placeholder = "Search Expertise...">
-                    <button id = "submit_expertise_search"><i class="fas fa-search"></i></button>
+                    <button id = "load_submit_expertise_search"><i class="fas fa-search"></i></button>
                 </form>
             </td>
         </tr>
@@ -40,7 +40,7 @@
                 <p class = "left_side_text"> Search Course </p>
                 <form id ="form_search_class">
                     <input class = "left_side_select" id="input_search_course"placeholder = "Search Course...">
-                    <button id = "submit_left_side_search"><i class="fas fa-search"></i></button>
+                    <button id = "load_submit_left_side_search"><i class="fas fa-search"></i></button>
                 </form>
             </td>
         </tr>

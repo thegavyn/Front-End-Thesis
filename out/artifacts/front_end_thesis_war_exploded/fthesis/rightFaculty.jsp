@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id = "right_side">
-    <table id = "table_area">
+    <table id = "faculty_table_area">
         <tr>
             <td><textarea  id="area_concerns"></textarea></td>
         </tr>
